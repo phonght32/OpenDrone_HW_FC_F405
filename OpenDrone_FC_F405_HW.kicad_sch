@@ -6779,10 +6779,6 @@
 		(uuid "3340670f-07a3-4075-99c2-53bb370c5584")
 	)
 	(no_connect
-		(at 236.22 106.68)
-		(uuid "3ad8c2de-d473-4d9b-af88-ce25f1e191a2")
-	)
-	(no_connect
 		(at 236.22 114.3)
 		(uuid "4bb276f7-5385-4614-9d74-2ff140f2f772")
 	)
@@ -7300,6 +7296,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 106.68) (xy 240.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb2e64f-4745-42f0-9265-88e1304056bb")
+	)
+	(wire
+		(pts
 			(xy 146.05 127) (xy 147.32 127)
 		)
 		(stroke
@@ -7777,6 +7783,16 @@
 			(type default)
 		)
 		(uuid "7792c8ff-10a3-4e6c-b2b5-b4e2133586c4")
+	)
+	(wire
+		(pts
+			(xy 240.03 106.68) (xy 240.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b009430-396a-4094-9e85-8ecd579fa554")
 	)
 	(wire
 		(pts
@@ -9586,6 +9602,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LORA_IRQ"
+		(shape input)
+		(at 240.03 104.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f784dec-b39d-4e85-9517-4f1cca8a7a44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 92.2647 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11636,6 +11674,28 @@
 			)
 		)
 	)
+	(global_label "LORA_IRQ"
+		(shape input)
+		(at 83.82 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f311ff94-318e-426e-bb91-c8abb449c2f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.6953 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 83.82 76.2 0)
@@ -11935,7 +11995,7 @@
 			(uuid "28bd10a6-781e-4c46-b4ef-bf19e79c523b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C9")
 					(unit 1)
@@ -12113,7 +12173,7 @@
 			(uuid "ac5d4dbe-b305-4689-b7cc-747a28f5de9c")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C18")
 					(unit 1)
@@ -12291,7 +12351,7 @@
 			(uuid "0aa51f93-e8d4-4090-a11b-ed182e4d5b2b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J5")
 					(unit 1)
@@ -12357,7 +12417,7 @@
 			(uuid "8f82a1ac-d929-41a9-a49a-b8f669d947e1")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR010")
 					(unit 1)
@@ -12532,7 +12592,7 @@
 			(uuid "bdc4a4ee-43b9-432a-8ecb-60a798eccd11")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R23")
 					(unit 1)
@@ -12731,7 +12791,7 @@
 			(uuid "563089d5-1280-4ed8-95b2-38c8ac7aa908")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U2")
 					(unit 1)
@@ -12932,7 +12992,7 @@
 			(uuid "ac29b161-8b54-4b83-b4b4-ba527175f418")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J22")
 					(unit 1)
@@ -12999,7 +13059,7 @@
 			(uuid "3b5a1240-f13e-4341-86cc-394d49560635")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR06")
 					(unit 1)
@@ -13175,7 +13235,7 @@
 			(uuid "b7a67077-beb8-4b34-8c9c-12c4f9de4760")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "L1")
 					(unit 1)
@@ -13241,7 +13301,7 @@
 			(uuid "3633fff5-2647-4bc5-bd3f-6c0d10ba8844")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR016")
 					(unit 1)
@@ -13307,7 +13367,7 @@
 			(uuid "448f119b-ee4c-4c82-8dca-debc7cb71e2b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR048")
 					(unit 1)
@@ -13374,7 +13434,7 @@
 			(uuid "db895896-0757-40dd-b9e9-70f12ec5991d")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR084")
 					(unit 1)
@@ -13551,7 +13611,7 @@
 			(uuid "1d773d4d-fe9e-4f6d-a902-a4261284e19d")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C27")
 					(unit 1)
@@ -13729,7 +13789,7 @@
 			(uuid "2e8a2ff1-f3bd-4630-9a27-a963d5b8d0c2")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R9")
 					(unit 1)
@@ -13907,7 +13967,7 @@
 			(uuid "1f810273-72c2-4aae-8449-aed5ebb9a716")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J2")
 					(unit 1)
@@ -13974,7 +14034,7 @@
 			(uuid "a8c4beb2-c39d-42e6-9ca3-5a55db16fdba")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR074")
 					(unit 1)
@@ -14040,7 +14100,7 @@
 			(uuid "3d5a359c-7f6d-4529-a2f1-b3cd7fed9d94")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR057")
 					(unit 1)
@@ -14217,7 +14277,7 @@
 			(uuid "17812c5c-6ce8-4ad7-9412-09f01fad79ed")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C33")
 					(unit 1)
@@ -14394,7 +14454,7 @@
 			(uuid "5c2d2e9e-777d-4a91-88c7-6ef33056d8d7")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C5")
 					(unit 1)
@@ -14569,7 +14629,7 @@
 			(uuid "0eda14cb-72e1-4c95-9de1-c071692988c8")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R24")
 					(unit 1)
@@ -14636,7 +14696,7 @@
 			(uuid "1eb94c59-45f5-4680-9e75-8e95c9b51e91")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR076")
 					(unit 1)
@@ -14704,7 +14764,7 @@
 			(uuid "f675b2d8-e433-44c9-bded-9c630c009840")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR049")
 					(unit 1)
@@ -14879,7 +14939,7 @@
 			(uuid "1a6eb020-80f1-4fb0-a9fc-620d0e665095")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R20")
 					(unit 1)
@@ -14945,7 +15005,7 @@
 			(uuid "7720ae99-791a-4647-8f6d-9e35b0f51f8f")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR036")
 					(unit 1)
@@ -15010,7 +15070,7 @@
 			(uuid "5e22be0c-5f09-4394-a962-883a9d095a81")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR028")
 					(unit 1)
@@ -15076,7 +15136,7 @@
 			(uuid "1e22a591-7331-4153-bb0a-4d987df593bf")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR033")
 					(unit 1)
@@ -15253,7 +15313,7 @@
 			(uuid "9521f9a4-1e4d-4ae8-a944-98e5af4dd4e2")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R6")
 					(unit 1)
@@ -15431,7 +15491,7 @@
 			(uuid "acaeb9af-a0f5-41b7-82e5-3e786ffccfae")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C23")
 					(unit 1)
@@ -15497,7 +15557,7 @@
 			(uuid "dfcdd150-b301-4ea3-9d4a-54c37654faa7")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR034")
 					(unit 1)
@@ -15675,7 +15735,7 @@
 			(uuid "b4af19a9-e8f0-4c46-8f7f-2e6adf24d437")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C39")
 					(unit 1)
@@ -15741,7 +15801,7 @@
 			(uuid "8a5e1218-a38a-40ba-9a1d-6ece42d9b8e1")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR026")
 					(unit 1)
@@ -15807,7 +15867,7 @@
 			(uuid "8a9959bc-fd82-446b-aedf-06bb44494223")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR051")
 					(unit 1)
@@ -15984,7 +16044,7 @@
 			(uuid "3c76eaee-d3cb-43da-aac9-7de8569204e3")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R10")
 					(unit 1)
@@ -16050,7 +16110,7 @@
 			(uuid "058405e9-4d4c-48b6-bccf-b1670eda6e3b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR017")
 					(unit 1)
@@ -16227,7 +16287,7 @@
 			(uuid "cf150cc6-8f77-4805-8a21-639f8a2feb96")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C31")
 					(unit 1)
@@ -16405,7 +16465,7 @@
 			(uuid "878455b4-6ac2-4a20-acee-017670deed34")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J15")
 					(unit 1)
@@ -16471,7 +16531,7 @@
 			(uuid "4c9ef748-77e9-41ae-b9c6-cac4b70e4b5d")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR066")
 					(unit 1)
@@ -16646,7 +16706,7 @@
 			(uuid "0636c838-06e2-46e3-a933-48f5d74bd293")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R19")
 					(unit 1)
@@ -16712,7 +16772,7 @@
 			(uuid "5d2760b4-e4cd-4940-a2c6-51c4a20e8854")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR012")
 					(unit 1)
@@ -16778,7 +16838,7 @@
 			(uuid "77674d59-4514-49c2-a675-420d9bd638a4")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR045")
 					(unit 1)
@@ -16956,7 +17016,7 @@
 			(uuid "33b80b29-f08b-479e-af56-81e6d1cc6145")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J13")
 					(unit 1)
@@ -17133,7 +17193,7 @@
 			(uuid "7e9d7110-ac78-44b5-8142-239581436938")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C25")
 					(unit 1)
@@ -17311,7 +17371,7 @@
 			(uuid "a3dcff4c-674b-4ec7-8bd2-5807cb92eea9")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C13")
 					(unit 1)
@@ -17489,7 +17549,7 @@
 			(uuid "f2b5d6fa-2b96-4702-91ee-42e4f770f507")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R25")
 					(unit 1)
@@ -17555,7 +17615,7 @@
 			(uuid "a2d2bb0d-d537-48fd-bcdd-a8911fd600d2")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR029")
 					(unit 1)
@@ -17733,7 +17793,7 @@
 			(uuid "186b58af-a4ed-4312-91c9-f48a4eb57e3e")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C38")
 					(unit 1)
@@ -17910,7 +17970,7 @@
 			(uuid "94ee2e78-bad7-4fd8-8ce3-15fdd93c4365")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C30")
 					(unit 1)
@@ -18087,7 +18147,7 @@
 			(uuid "97f7dcb9-c20f-429c-9ff6-98486ecd72ee")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C12")
 					(unit 1)
@@ -18306,7 +18366,7 @@
 			(uuid "e716de5c-a066-4289-a631-36a30009e270")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U9")
 					(unit 1)
@@ -18484,7 +18544,7 @@
 			(uuid "31d162b4-4e28-4440-bd45-aec56f844e65")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R22")
 					(unit 1)
@@ -18661,7 +18721,7 @@
 			(uuid "51f1cab6-531d-44ff-951e-27ced0a96c97")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C15")
 					(unit 1)
@@ -18844,7 +18904,7 @@
 			(uuid "7f00900a-f6af-4296-896f-dce946b6ee2d")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J8")
 					(unit 1)
@@ -19021,7 +19081,7 @@
 			(uuid "7de200a1-573c-4e9a-bc39-23fb5df16646")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C19")
 					(unit 1)
@@ -19086,7 +19146,7 @@
 			(uuid "411a1b47-2dfd-4a9d-a5b1-e796c6120aa9")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR040")
 					(unit 1)
@@ -19152,7 +19212,7 @@
 			(uuid "b0318df3-470b-4bb8-b845-e3cc8caa2af3")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR050")
 					(unit 1)
@@ -19219,7 +19279,7 @@
 			(uuid "0d627f2e-b098-4bbd-9afd-a0b11a1202ae")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR082")
 					(unit 1)
@@ -19394,7 +19454,7 @@
 			(uuid "83df2280-2bba-4fb2-97a3-e1aef3790ae2")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C21")
 					(unit 1)
@@ -19460,7 +19520,7 @@
 			(uuid "31ea4c72-cf04-47f0-b846-0b9384e2bc49")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR024")
 					(unit 1)
@@ -19526,7 +19586,7 @@
 			(uuid "e53983fd-49c4-469e-ab76-94b33d466d47")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR030")
 					(unit 1)
@@ -19593,7 +19653,7 @@
 			(uuid "25016681-ad73-4db4-8c77-5ed81b03e44b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR071")
 					(unit 1)
@@ -19658,7 +19718,7 @@
 			(uuid "351f8b66-2141-4a50-bedf-b7d89c738e52")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR065")
 					(unit 1)
@@ -19835,7 +19895,7 @@
 			(uuid "20e2698c-24f1-480c-abcb-9eb46af87697")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "D2")
 					(unit 1)
@@ -19901,7 +19961,7 @@
 			(uuid "b4da47fc-833e-43cc-b3ea-38149fea0daf")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR027")
 					(unit 1)
@@ -20078,7 +20138,7 @@
 			(uuid "e263334f-f0da-4240-b7d9-37373287252e")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C17")
 					(unit 1)
@@ -20255,7 +20315,7 @@
 			(uuid "f5a35718-160b-46f7-a312-e99fdf4e8969")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C6")
 					(unit 1)
@@ -20321,7 +20381,7 @@
 			(uuid "08b38c0c-18ed-4fc6-be81-9fabd3c509c5")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR061")
 					(unit 1)
@@ -20498,7 +20558,7 @@
 			(uuid "820d3c1f-ee17-4ded-9cee-178b7e2e2759")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R4")
 					(unit 1)
@@ -20673,7 +20733,7 @@
 			(uuid "17ac3a71-77b5-4920-9341-b96c4b3ff132")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R2")
 					(unit 1)
@@ -20738,7 +20798,7 @@
 			(uuid "f7068462-f5ac-4c68-bd59-b555718a8ebf")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR044")
 					(unit 1)
@@ -20915,7 +20975,7 @@
 			(uuid "14203094-920e-4be7-800f-8614859aa921")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C42")
 					(unit 1)
@@ -21092,7 +21152,7 @@
 			(uuid "efd0292e-d40d-47ce-a60e-4836a9253f3e")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C3")
 					(unit 1)
@@ -21157,7 +21217,7 @@
 			(uuid "f6f0da12-b48a-45fc-891c-575878bed1d0")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR013")
 					(unit 1)
@@ -21223,7 +21283,7 @@
 			(uuid "0b7d9a52-b0fe-4aed-83c2-2d3e351fe9f2")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR019")
 					(unit 1)
@@ -21398,7 +21458,7 @@
 			(uuid "8c9125ce-4d44-4ee1-973f-d48391ef4cad")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C37")
 					(unit 1)
@@ -21575,7 +21635,7 @@
 			(uuid "d0a8b430-15b3-46cd-affc-8575c8ecb624")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R12")
 					(unit 1)
@@ -21753,7 +21813,7 @@
 			(uuid "6c021aee-4f64-4267-8877-14a1b237988b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J14")
 					(unit 1)
@@ -21930,7 +21990,7 @@
 			(uuid "06e2f18d-4677-41e6-b5a5-22e6f479adb1")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R11")
 					(unit 1)
@@ -22125,7 +22185,7 @@
 			(uuid "1d4161fe-3ea9-4ea5-a2c5-2536c411fd13")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U6")
 					(unit 1)
@@ -22191,7 +22251,7 @@
 			(uuid "d641e92e-bc7f-4788-b0c5-711c125bd520")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR05")
 					(unit 1)
@@ -22368,7 +22428,7 @@
 			(uuid "2f10dc13-fa49-4447-baf2-67358ea73b64")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C16")
 					(unit 1)
@@ -22435,7 +22495,7 @@
 			(uuid "6e6ce276-814e-48cf-ad10-406b47e5d467")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR043")
 					(unit 1)
@@ -22622,7 +22682,7 @@
 			(uuid "3554fa5b-0e79-4231-85d9-84917f61097e")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J1")
 					(unit 1)
@@ -22799,7 +22859,7 @@
 			(uuid "90980b8d-8762-46af-9906-71bbea63c0b7")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C26")
 					(unit 1)
@@ -22976,7 +23036,7 @@
 			(uuid "8b363a1d-5df0-49d1-8c50-fe5fea6070aa")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C29")
 					(unit 1)
@@ -23153,7 +23213,7 @@
 			(uuid "71479f2a-2a42-43f5-ad7d-9dcdab89f9ec")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "D4")
 					(unit 1)
@@ -23219,7 +23279,7 @@
 			(uuid "1d6e7f8b-d64b-4485-8252-191bbdc4ef96")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR01")
 					(unit 1)
@@ -23397,7 +23457,7 @@
 			(uuid "005c1555-a3ae-454a-bb77-6cdf26966f1f")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J19")
 					(unit 1)
@@ -23572,7 +23632,7 @@
 			(uuid "e257ce34-2b11-4ea9-9f31-56c46285369e")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C36")
 					(unit 1)
@@ -23639,7 +23699,7 @@
 			(uuid "33dc4bbb-93b1-49ec-ba0d-43a4664d7d75")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR075")
 					(unit 1)
@@ -23704,7 +23764,7 @@
 			(uuid "90bdfc37-cef4-450c-9aee-410d1a1741d8")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR041")
 					(unit 1)
@@ -23881,7 +23941,7 @@
 			(uuid "4d13e6f1-ec01-4c04-afb0-769134ee785b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C7")
 					(unit 1)
@@ -24059,7 +24119,7 @@
 			(uuid "48897e7e-ae5a-4615-b647-7220b2cfbaf3")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C24")
 					(unit 1)
@@ -24237,7 +24297,7 @@
 			(uuid "9b52f9db-fb05-43ee-a1f5-b5e4261f8bc5")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R5")
 					(unit 1)
@@ -24303,7 +24363,7 @@
 			(uuid "b71d85e1-c273-4fea-82a1-4293de45d31c")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR02")
 					(unit 1)
@@ -24480,7 +24540,7 @@
 			(uuid "4db48c8b-efef-4ba1-b5ff-038df4a24a94")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C14")
 					(unit 1)
@@ -24657,7 +24717,7 @@
 			(uuid "c558d57a-959d-417f-b758-30ff8a94a9c4")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R7")
 					(unit 1)
@@ -24722,7 +24782,7 @@
 			(uuid "f1b8cfe9-e118-40b6-b26f-d49ac5179c6a")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR021")
 					(unit 1)
@@ -24894,7 +24954,7 @@
 			)
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U8")
 					(unit 1)
@@ -25071,7 +25131,7 @@
 			(uuid "53214d4a-1d93-4a4b-bb33-0e42e4868fae")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C43")
 					(unit 1)
@@ -25285,7 +25345,7 @@
 			(uuid "83ea3e92-da4d-49ed-bf11-46d1e22f94fe")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U4")
 					(unit 1)
@@ -25462,7 +25522,7 @@
 			(uuid "be674e18-0c42-4a3b-9e1a-8b8ccdee6572")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C34")
 					(unit 1)
@@ -25639,7 +25699,7 @@
 			(uuid "ac1ff713-3ac8-4ce1-9d43-5b8aed6dd037")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C32")
 					(unit 1)
@@ -25815,7 +25875,7 @@
 			(uuid "f0f84f86-89d7-48a7-a1c5-f0514403182a")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R18")
 					(unit 1)
@@ -25882,7 +25942,7 @@
 			(uuid "bd6d2451-6ceb-49e1-ab7c-ec827b68d724")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR079")
 					(unit 1)
@@ -26060,7 +26120,7 @@
 			(uuid "5d6ae7bb-f99e-40df-af37-b5690bb45f4b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "Y1")
 					(unit 1)
@@ -26126,7 +26186,7 @@
 			(uuid "f749c6c5-ab54-485a-9302-29cffda34bb3")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR020")
 					(unit 1)
@@ -26193,7 +26253,7 @@
 			(uuid "34700c75-be40-42ba-98eb-726d395225e0")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR083")
 					(unit 1)
@@ -26371,7 +26431,7 @@
 			(uuid "4e0964f4-eb40-469c-998a-bb83a17a7460")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J21")
 					(unit 1)
@@ -26549,7 +26609,7 @@
 			(uuid "b3e90c64-1455-4d80-9729-ec80ede50ea6")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "D6")
 					(unit 1)
@@ -26615,7 +26675,7 @@
 			(uuid "1ca0054e-ed26-4713-885c-e59c56febd91")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR014")
 					(unit 1)
@@ -26682,7 +26742,7 @@
 			(uuid "3835b38e-3dfd-4cc6-bd17-137f3022d327")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR07")
 					(unit 1)
@@ -26748,7 +26808,7 @@
 			(uuid "6bacb22c-bb70-4977-9090-d5e64db7861a")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR060")
 					(unit 1)
@@ -26814,7 +26874,7 @@
 			(uuid "d775746e-8d59-46f6-ba1c-6ccfc2356f7c")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR015")
 					(unit 1)
@@ -27018,7 +27078,7 @@
 			(uuid "529eecdc-5c15-4b76-ae8c-68be7c27cb09")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U5")
 					(unit 1)
@@ -27195,7 +27255,7 @@
 			(uuid "ea7fea16-aeb6-499d-8154-f0df73a2353a")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "D5")
 					(unit 1)
@@ -27262,7 +27322,7 @@
 			(uuid "ccafb57e-30cc-4a9a-aacd-03ea6b98071f")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR072")
 					(unit 1)
@@ -27461,7 +27521,7 @@
 			(uuid "e223e5a9-8fc3-4f8a-9e7c-9e6af1236514")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U3")
 					(unit 1)
@@ -27639,7 +27699,7 @@
 			(uuid "946c593d-0aba-40d1-a766-126f39b1afb2")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R13")
 					(unit 1)
@@ -27816,7 +27876,7 @@
 			(uuid "6e715464-4e50-4870-96f8-1280b628d3ab")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C20")
 					(unit 1)
@@ -27992,7 +28052,7 @@
 			(uuid "e16e4330-be13-4383-9cb2-723a8c9ee272")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "L2")
 					(unit 1)
@@ -28058,7 +28118,7 @@
 			(uuid "b9a88803-4193-469f-9543-b0745174c4ca")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR039")
 					(unit 1)
@@ -28125,7 +28185,7 @@
 			(uuid "9c288646-8260-4577-9b39-66055b721212")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR073")
 					(unit 1)
@@ -28303,7 +28363,7 @@
 			(uuid "74af6559-3c1c-4dfe-8966-c629fef01b67")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "D3")
 					(unit 1)
@@ -28480,7 +28540,7 @@
 			(uuid "12889ad7-9476-4f15-a795-8bd17d19456f")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R1")
 					(unit 1)
@@ -28658,7 +28718,7 @@
 			(uuid "0adb7c83-d55e-42ad-a571-8cf875aa4e30")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J16")
 					(unit 1)
@@ -28724,7 +28784,7 @@
 			(uuid "56476b6e-58e1-4e70-831a-9bd3eaded6dd")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR09")
 					(unit 1)
@@ -28791,7 +28851,7 @@
 			(uuid "68a08bd1-f0d4-488f-b790-2854695a6878")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR080")
 					(unit 1)
@@ -28968,7 +29028,7 @@
 			(uuid "20388cb2-99f7-44e6-997b-2f945db3b1b1")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R15")
 					(unit 1)
@@ -29034,7 +29094,7 @@
 			(uuid "1348b963-b06c-4f40-a1fd-c677d591e660")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR046")
 					(unit 1)
@@ -29100,7 +29160,7 @@
 			(uuid "39d4bddd-6d53-4a5d-ad1c-48a7d3763087")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR023")
 					(unit 1)
@@ -29278,7 +29338,7 @@
 			(uuid "2ec0c925-3c43-4501-ba07-579643d5f6f4")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J17")
 					(unit 1)
@@ -29344,7 +29404,7 @@
 			(uuid "8b44a6aa-8027-4406-b10f-6b89bfa96b27")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR047")
 					(unit 1)
@@ -29522,7 +29582,7 @@
 			(uuid "650a5f03-af2e-4de0-bdcc-c28ed903ee19")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R21")
 					(unit 1)
@@ -29700,7 +29760,7 @@
 			(uuid "9033a39d-35e3-4bb7-8c8c-cae90f2cc97f")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R17")
 					(unit 1)
@@ -29877,7 +29937,7 @@
 			(uuid "2b3ccb18-1df1-4b93-9bff-30f8e7428feb")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C11")
 					(unit 1)
@@ -30054,7 +30114,7 @@
 			(uuid "15208e8b-88b4-440b-83ae-c5c871ade079")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C28")
 					(unit 1)
@@ -30119,7 +30179,7 @@
 			(uuid "a8553dfa-1ccf-42f4-9248-755a4de61f08")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR042")
 					(unit 1)
@@ -30185,7 +30245,7 @@
 			(uuid "fe809c78-bfb2-484c-b658-6f322cd8baa0")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR035")
 					(unit 1)
@@ -30362,7 +30422,7 @@
 			(uuid "e7cd15b2-ffea-4eb0-871b-be8c50b12dbb")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R14")
 					(unit 1)
@@ -30540,7 +30600,7 @@
 			(uuid "8dcde064-f0e9-472c-8980-f1ed225ee5f5")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J9")
 					(unit 1)
@@ -30718,7 +30778,7 @@
 			(uuid "26777eec-5fba-45fb-96a3-e62466abe7f7")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R3")
 					(unit 1)
@@ -30896,7 +30956,7 @@
 			(uuid "93e29052-7c42-45c6-aabc-c4f73b7e1c32")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R16")
 					(unit 1)
@@ -30961,7 +31021,7 @@
 			(uuid "f6e94d27-47aa-4c26-b9f1-becd8ba8d251")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR018")
 					(unit 1)
@@ -31139,7 +31199,7 @@
 			(uuid "52a9334b-9a47-4854-a925-fa8b5b6f94b5")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J20")
 					(unit 1)
@@ -31316,7 +31376,7 @@
 			(uuid "ff0b3bf2-ad15-4534-b0c5-2dd8df2015a5")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C41")
 					(unit 1)
@@ -31382,7 +31442,7 @@
 			(uuid "34ed06cb-16e3-4d5b-a797-7038221d2845")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR037")
 					(unit 1)
@@ -31557,7 +31617,7 @@
 			(uuid "33471bde-b542-4e97-a439-195f12631db0")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C10")
 					(unit 1)
@@ -31623,7 +31683,7 @@
 			(uuid "ff548eeb-1b20-4f1e-b268-877d558b76ec")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR056")
 					(unit 1)
@@ -31818,7 +31878,7 @@
 			(uuid "8fbaad20-e959-48f4-b47b-7864a603a910")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J6")
 					(unit 1)
@@ -31885,7 +31945,7 @@
 			(uuid "65e5bb5a-93fa-4cff-850b-3f0182b9f10c")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR069")
 					(unit 1)
@@ -31951,7 +32011,7 @@
 			(uuid "f952d3e7-2cbe-4fe3-89d6-455a42e13b15")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR03")
 					(unit 1)
@@ -32017,7 +32077,7 @@
 			(uuid "994a9c4e-6189-496b-a723-dea2362468b3")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR04")
 					(unit 1)
@@ -32083,7 +32143,7 @@
 			(uuid "2b6b51ac-9405-4f80-b46a-56da6b8fe122")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR025")
 					(unit 1)
@@ -32149,7 +32209,7 @@
 			(uuid "cb2773a1-2d95-48b3-bdb0-882c815ea332")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR032")
 					(unit 1)
@@ -32215,7 +32275,7 @@
 			(uuid "b8e5dd77-a26e-4065-aeab-fd8fb3b94cab")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR038")
 					(unit 1)
@@ -32282,7 +32342,7 @@
 			(uuid "2c9d1124-db37-4c18-998b-88811214cdfb")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR081")
 					(unit 1)
@@ -32349,7 +32409,7 @@
 			(uuid "002dec6e-2b6e-4059-a4af-adbd9ec34770")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR08")
 					(unit 1)
@@ -32526,7 +32586,7 @@
 			(uuid "1c4d5b4c-277d-404c-a561-7df989518cf5")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C40")
 					(unit 1)
@@ -32709,7 +32769,7 @@
 			(uuid "6023a101-b6ad-4b7a-a211-f08fca159cce")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J7")
 					(unit 1)
@@ -32894,7 +32954,7 @@
 			(uuid "bd9dd284-decf-4ce0-b4e5-4237452e1c8c")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J4")
 					(unit 1)
@@ -33072,7 +33132,7 @@
 			(uuid "5763a671-abb1-4970-a902-19e334f20cd1")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C2")
 					(unit 1)
@@ -33249,7 +33309,7 @@
 			(uuid "4dc4abe1-ab73-41c2-a42b-b419e23b8802")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "D1")
 					(unit 1)
@@ -33427,7 +33487,7 @@
 			(uuid "a3f8f70b-79b0-4a35-8151-f593a5c7eb30")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "Y2")
 					(unit 1)
@@ -33605,7 +33665,7 @@
 			(uuid "5c79fa45-4844-4ab0-8de0-4a1f59cde891")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C1")
 					(unit 1)
@@ -33783,7 +33843,7 @@
 			(uuid "0be80330-b352-4589-b005-3531feda00f6")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J10")
 					(unit 1)
@@ -34147,7 +34207,7 @@
 			(uuid "6ace9f8a-c31f-4558-b601-26de20efda4b")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U1")
 					(unit 1)
@@ -34322,7 +34382,7 @@
 			(uuid "b35bae38-9505-4151-9465-fcf8210aef41")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C35")
 					(unit 1)
@@ -34556,7 +34616,7 @@
 			(uuid "640731e0-8209-48a5-ae45-73816750a9b7")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "U7")
 					(unit 1)
@@ -34623,7 +34683,7 @@
 			(uuid "14384ddd-f3a2-4ef0-b3a1-182e09a9a368")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR077")
 					(unit 1)
@@ -34801,7 +34861,7 @@
 			(uuid "29bc0548-5610-48f7-b35a-9cd22131671a")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C22")
 					(unit 1)
@@ -34866,7 +34926,7 @@
 			(uuid "aa589eaa-c6da-4301-91d8-58a1a5e791a7")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR022")
 					(unit 1)
@@ -35044,7 +35104,7 @@
 			(uuid "9f9790d6-23d5-48b2-8941-a397189bba46")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "J12")
 					(unit 1)
@@ -35110,7 +35170,7 @@
 			(uuid "34f8c9d6-b437-4908-b553-9d05d0121d12")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR011")
 					(unit 1)
@@ -35177,7 +35237,7 @@
 			(uuid "502b6065-9216-4b8b-954b-d1f95d6db603")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR070")
 					(unit 1)
@@ -35354,7 +35414,7 @@
 			(uuid "a16ca1e4-d589-43cd-9a66-9841cd324615")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C4")
 					(unit 1)
@@ -35420,7 +35480,7 @@
 			(uuid "f909c4c5-d2e0-406a-a1dc-e2d463adc302")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR055")
 					(unit 1)
@@ -35597,7 +35657,7 @@
 			(uuid "6ad62786-f4e3-47d1-9a6f-04034bba8871")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C8")
 					(unit 1)
@@ -35774,7 +35834,7 @@
 			(uuid "a6c0e996-871d-475a-8323-805eb312320f")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "R8")
 					(unit 1)
@@ -35841,7 +35901,7 @@
 			(uuid "240b05d6-b6d1-46d4-9e2f-0da39b4d779d")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR078")
 					(unit 1)
@@ -35907,7 +35967,7 @@
 			(uuid "d711a65c-77b2-4950-b13b-e8abc6d44ea3")
 		)
 		(instances
-			(project "OpenFC_STM32F405RG_HW"
+			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "#PWR031")
 					(unit 1)
