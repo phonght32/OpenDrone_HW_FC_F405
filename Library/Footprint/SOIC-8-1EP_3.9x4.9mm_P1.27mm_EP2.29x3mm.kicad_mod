@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -313,7 +313,7 @@
 		(zone_connect 2)
 		(uuid "0b410716-26e8-46eb-88ae-e30575a7e359")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step"
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
