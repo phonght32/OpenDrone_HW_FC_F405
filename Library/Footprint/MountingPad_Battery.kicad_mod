@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at -4.25 -2.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ee702a9d-219f-4b0a-969a-6d5fac9cc017")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "MountingPad_Battery"
-		(at 0 1 0)
+		(at 0.25 5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "05e37daf-1330-4164-af42-089336bf2ed4")
@@ -68,6 +68,17 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
+		(at 6.25 -5.5 180)
+		(layer "F.Fab")
+		(uuid "83727b0d-844d-4f63-a5db-d9e572021191")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -79,16 +90,20 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at 1.5 -1.5)
-		(size 3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "5b352bd1-2709-42a6-86bf-5c3a1835ce9f")
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2eddfe2a-0e9b-4d1a-9f57-66f0919b4a25")
 	)
-	(pad "2" smd rect
-		(at 6.5 -1.5)
-		(size 3 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "0f42b448-15b3-4cdd-aca1-4ba9515e5da6")
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7192d767-9e9b-4f1e-a406-8cae3ab994e9")
 	)
 )

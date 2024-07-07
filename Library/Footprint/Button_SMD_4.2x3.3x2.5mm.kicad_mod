@@ -1,0 +1,228 @@
+(footprint "Button_SMD_4.2x3.3x2.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.31 -4.37 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "091927f7-b11c-4d4c-9ada-325450bf8d94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Button_SMD_4.2x3.3x2.5mm"
+		(at -0.13 1.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8755182a-d8e4-4115-aa52-ed7dc80f8111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.2 -0.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f329ae4-b881-45c5-a85a-b47f6a99f0a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.2 -0.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80c0ef46-7492-47cb-a0b3-04f49e5ffe58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.2 -0.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8d18ba6-f313-4a8f-b2fd-848ef30e8b8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.36 0.36)
+		(end -2.36 -0.44)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed58362b-cbd8-440c-a54c-476654739c0d")
+	)
+	(fp_line
+		(start -2.2 1.55)
+		(end 2.2 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cf1f0c6-3b75-4fda-83a4-b71b42549252")
+	)
+	(fp_line
+		(start 2.2075 -1.63)
+		(end -2.1875 -1.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "242d5c35-f47d-4886-95dd-0401d0cb0ccb")
+	)
+	(fp_line
+		(start 2.26 0.38)
+		(end 2.26 -0.42)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fa0b0e5-5808-4a27-9652-0a30d67f68c6")
+	)
+	(fp_line
+		(start -2.65 -1.57)
+		(end 2.65 -1.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2d4d866-a615-4fca-a7a5-f6a12ed00ad3")
+	)
+	(fp_line
+		(start -2.65 1.52)
+		(end -2.65 -1.57)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a94a44dc-8039-4e33-8f30-fbcc4173c2c3")
+	)
+	(fp_line
+		(start 2.65 -1.57)
+		(end 2.65 1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9f387b0-b618-45ae-b8bf-f355f9e6b61b")
+	)
+	(fp_line
+		(start 2.65 1.52)
+		(end -2.65 1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1203654c-e7e2-43fb-9d08-0fe52474ba8a")
+	)
+	(fp_line
+		(start -2.16 -1.61)
+		(end 2.04 -1.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "790e3617-2389-468e-9ae8-da55ba680d85")
+	)
+	(fp_line
+		(start 2.1 1.55)
+		(end -2.1 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba630265-ce81-4b5d-97ba-ddb16fb5308c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f32196ff-dbe1-4a9e-9333-a99a56a11856")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.09 4.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5adcd31e-ed41-4dea-bc71-05089e8ea7a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 1.125 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3b48f5e4-18f6-46ba-ac96-6670942ac3d4")
+	)
+	(pad "1" smd rect
+		(at 2.1 1.125 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b3abcfdb-411f-4127-b086-1f7160b33348")
+	)
+	(pad "2" smd rect
+		(at -2.1 -1.125 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e9205670-222f-4789-b955-336253e56d50")
+	)
+	(pad "2" smd rect
+		(at 2.1 -1.125 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e5e65ba-3895-4a6d-81ba-babe72c7cbe9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS647Sx38.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.7 0.7 0.7)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
