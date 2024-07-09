@@ -7928,7 +7928,7 @@
 	)
 	(global_label "LED_STRIP1"
 		(shape input)
-		(at 396.24 113.03 0)
+		(at 396.24 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7938,7 +7938,7 @@
 		)
 		(uuid "46376d4a-f958-4eab-9d7d-06095278a5ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 410.1713 113.03 0)
+			(at 410.1713 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +7950,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 318.77 113.03 0)
+		(at 318.77 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7960,7 +7960,7 @@
 		)
 		(uuid "4a496661-cbd4-40be-af53-7714e9b770af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.5847 113.03 0)
+			(at 330.5847 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7994,7 @@
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
-		(at 318.77 115.57 0)
+		(at 318.77 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8004,7 +8004,7 @@
 		)
 		(uuid "56324572-3c90-426f-9453-6c4443b471a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.5242 115.57 0)
+			(at 330.5242 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8126,7 +8126,7 @@
 	)
 	(global_label "LED_STRIP2"
 		(shape input)
-		(at 396.24 115.57 0)
+		(at 396.24 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8136,7 +8136,7 @@
 		)
 		(uuid "68c58972-682a-47bc-b74b-1f985ee08638")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 410.1713 115.57 0)
+			(at 410.1713 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
