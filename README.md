@@ -2,9 +2,7 @@
 
 ### Overview
 
-![3d_top](Assets/Demo/Board_Demo_Front.png)
-
-![3d_top](Assets/Demo/Board_Demo_Bottom.png)
+![3d_top](Assets/Demo/Board_Demo.png)
 
 OpenDrone Project - Fly Controller hardware using STM32F405RG.
 
@@ -23,30 +21,6 @@ OpenDrone Project - Fly Controller hardware using STM32F405RG.
 F.Cu
 
 ![3d_top](Assets/Demo/F.Cu.png)
-
-In1.Cu
-
-![3d_top](Assets/Demo/In1.Cu.png)
-
-In2.Cu
-
-![3d_top](Assets/Demo/In2.Cu.png)
-
-In3.Cu
-
-![3d_top](Assets/Demo/In3.Cu.png)
-
-In4.Cu
-
-![3d_top](Assets/Demo/In4.Cu.png)
-
-In5.Cu
-
-![3d_top](Assets/Demo/In5.Cu.png)
-
-In6.Cu
-
-![3d_top](Assets/Demo/In6.Cu.png)
 
 B.Cu
 
