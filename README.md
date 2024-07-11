@@ -14,7 +14,7 @@ OpenDrone Project - Fly Controller hardware using STM32F405RG.
 
 #### Schematic
 
-[![schematic](Assets/Demo/Schematic.png)](Assets/OpenDrone_FC_F405_HW_v1.pdf)
+[![schematic](Assets/Demo/Schematic.png)](Assets/OpenDrone_FC_F405_HW_v1.0.pdf)
 
 #### PCB
 
@@ -40,9 +40,9 @@ B.Cu
 
 ### Bill of materials (BOM)
 
-[Download v1](Assets/BOM/OpenDrone_FC_F405_HW_v1.xlsx)
+[Download v1.0](Assets/BOM/OpenDrone_FC_F405_HW_v1.0.xlsx)
 
 ### Gerber
 
-[Download v1](Assets/Gerber/OpenDrone_FC_F405_HW_v1.zip)
+[Download v1.0](Assets/Gerber/OpenDrone_FC_F405_HW_v1.0.zip)
 
