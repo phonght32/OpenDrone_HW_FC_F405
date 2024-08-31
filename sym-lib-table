@@ -7,4 +7,5 @@
   (lib (name "AT7456")(type "KiCad")(uri "${KIPRJMOD}/Library/Object/AT7456.kicad_sym")(options "")(descr ""))
   (lib (name "Board")(type "KiCad")(uri "${KIPRJMOD}/Library/Object/Board.kicad_sym")(options "")(descr ""))
   (lib (name "BMP180")(type "KiCad")(uri "${KIPRJMOD}/Library/Object/BMP180.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS54331")(type "KiCad")(uri "${KIPRJMOD}/Library/Object/TPS54331.kicad_sym")(options "")(descr ""))
 )
