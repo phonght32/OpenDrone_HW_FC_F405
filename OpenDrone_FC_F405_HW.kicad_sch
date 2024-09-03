@@ -5097,12 +5097,6 @@
 		(uuid "2d5aa9b4-c526-4c1d-93bf-6cf9aa0f3c2e")
 	)
 	(junction
-		(at 91.44 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2da041e7-ec07-4011-aec9-ede7a7801a59")
-	)
-	(junction
 		(at 369.57 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5425,12 +5419,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e916d704-b080-4507-bfdf-6567a49a82a3")
-	)
-	(junction
-		(at 91.44 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eeed05e2-5e94-4187-85e6-f1cf422e32df")
 	)
 	(junction
 		(at 68.58 43.18)
@@ -5785,16 +5773,6 @@
 			(type default)
 		)
 		(uuid "3754c06a-7b74-4e12-8437-c3639a3a7481")
-	)
-	(wire
-		(pts
-			(xy 91.44 27.94) (xy 91.44 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a43b891-29d8-4326-bb5e-1a26c5cf32ed")
 	)
 	(wire
 		(pts
@@ -6225,16 +6203,6 @@
 			(type default)
 		)
 		(uuid "701cecf4-32f1-49c7-ab2d-698dccd8d2fe")
-	)
-	(wire
-		(pts
-			(xy 91.44 21.59) (xy 91.44 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c5de0a-9a7c-4275-ac3b-1bff5168038f")
 	)
 	(wire
 		(pts
@@ -7468,7 +7436,7 @@
 	)
 	(global_label "STM32_DIO"
 		(shape input)
-		(at 107.95 69.85 0)
+		(at 107.95 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7478,7 +7446,7 @@
 		)
 		(uuid "080f6920-09f4-4a53-81a7-a3cec4729238")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.1556 69.85 0)
+			(at 121.1556 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7568,7 @@
 	)
 	(global_label "STM32_CLK"
 		(shape input)
-		(at 107.95 67.31 0)
+		(at 107.95 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7610,7 +7578,7 @@
 		)
 		(uuid "17074404-7183-4b4f-a1b7-2b7fbe5c64cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.5184 67.31 0)
+			(at 121.5184 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,22 +7612,22 @@
 	)
 	(global_label "LED_GREEN"
 		(shape input)
-		(at 45.72 91.44 180)
+		(at 81.28 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "184c2fc2-9af3-4006-8d4b-b798b3852dca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.1516 91.44 0)
+			(at 94.8484 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7798,7 +7766,7 @@
 	)
 	(global_label "LORA_RST"
 		(shape input)
-		(at 327.66 124.46 0)
+		(at 327.66 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7808,7 +7776,7 @@
 		)
 		(uuid "3455ed92-f8f1-4d74-9a80-c703aec4823d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.7771 124.46 0)
+			(at 339.7771 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8140,7 @@
 	)
 	(global_label "5V_DEBUGGER"
 		(shape input)
-		(at 107.95 59.69 0)
+		(at 107.95 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8182,7 +8150,7 @@
 		)
 		(uuid "7725b4f0-c2ea-47ad-9a2a-a613100c0ac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.1794 59.69 0)
+			(at 124.1794 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8206,7 @@
 	)
 	(global_label "STM32_NRST"
 		(shape input)
-		(at 107.95 64.77 0)
+		(at 107.95 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8248,7 +8216,7 @@
 		)
 		(uuid "7f2d05f1-c645-4179-aa45-4b546cc8b85b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.7279 64.77 0)
+			(at 122.7279 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,22 +8426,22 @@
 	)
 	(global_label "LED_BLUE"
 		(shape input)
-		(at 45.72 93.98 180)
+		(at 81.28 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9c59b201-a089-4a3c-a4b2-539b1584abc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.5425 93.98 0)
+			(at 93.4575 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9052,7 +9020,7 @@
 	)
 	(global_label "LORA_IRQ"
 		(shape input)
-		(at 327.66 127 0)
+		(at 327.66 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9062,7 +9030,7 @@
 		)
 		(uuid "e1e1ff28-ebe5-4be2-b225-e6658623684a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.5353 127 0)
+			(at 339.5353 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25996,7 +25964,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 62.23 90)
+		(at 107.95 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26005,7 +25973,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc9f951f-8bfe-4f0a-aac6-159d6be78235")
 		(property "Reference" "#PWR08"
-			(at 114.3 62.23 0)
+			(at 114.3 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26014,7 +25982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 62.2299 90)
+			(at 111.76 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26023,7 +25991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 62.23 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26032,7 +26000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 62.23 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26041,7 +26009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 62.23 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27507,183 +27475,6 @@
 			(project "OpenDrone_FC_F405_HW"
 				(path "/164a3579-a590-4494-9ab2-e38048782624"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 91.44 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f122e330-7a26-4e27-945a-d092a10507c1")
-		(property "Reference" "C8"
-			(at 92.202 22.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 91.948 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51287e27-62ea-4a75-b2f8-e457b2f7f4e9")
-		)
-		(pin "2"
-			(uuid "6ad62786-f4e3-47d1-9a6f-04034bba8871")
-		)
-		(instances
-			(project "OpenDrone_FC_F405_HW"
-				(path "/164a3579-a590-4494-9ab2-e38048782624"
-					(reference "C8")
 					(unit 1)
 				)
 			)
