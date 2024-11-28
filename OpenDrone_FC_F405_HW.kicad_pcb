@@ -2684,7 +2684,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "15fd4e68-2187-4dc6-bfd5-c54360a2a1b5")
@@ -2696,7 +2696,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "bd28be60-c51b-483f-987b-54385fb9a8c2")
 			(effects
@@ -3007,7 +3007,7 @@
 			(uuid "4930328a-354f-4b85-a02a-f618f0bf060f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "653c2f94-0ebe-4742-9102-bdae0def1aa3")
 			(effects
