@@ -9793,7 +9793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:Inductor_SMD_4D28"
+		(property "Footprint" "KiCad-Lib:Inductor_SMD_4D28"
 			(at 92.71 160.02 0)
 			(effects
 				(font
@@ -11051,7 +11051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:Inductor_SMD_4D28"
+		(property "Footprint" "KiCad-Lib:Inductor_SMD_4D28"
 			(at 209.55 161.29 0)
 			(effects
 				(font
@@ -13175,7 +13175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:Connector_XH_1x04_P1.25mm_Horizontal"
+		(property "Footprint" "KiCad-Lib:Connector_XH_1x04_P1.25mm_Horizontal"
 			(at 327.66 106.68 0)
 			(effects
 				(font
@@ -15431,7 +15431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:Header_1x06_P2.00mm_Vertical"
+		(property "Footprint" "KiCad-Lib:Header_1x06_P2.00mm_Vertical"
 			(at 295.91 132.08 0)
 			(effects
 				(font
@@ -15933,7 +15933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:Connector_XH_1x05_P1.25mm_Horizontal"
+		(property "Footprint" "KiCad-Lib:Connector_XH_1x05_P1.25mm_Horizontal"
 			(at 102.87 64.77 0)
 			(effects
 				(font
@@ -16606,7 +16606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad-Lib:LGA-8_2x2.5mm_P0.65mm"
+		(property "Footprint" "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering"
 			(at 367.03 80.01 0)
 			(effects
 				(font
@@ -18001,7 +18001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprint:Board_Outline_34x34_Hole_26x26"
+		(property "Footprint" "Proj-Lib:Board_Outline_34x34_Hole_26x26"
 			(at 285.75 173.99 0)
 			(effects
 				(font
@@ -24553,7 +24553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:Header_1x06_P2.00mm_Vertical"
+		(property "Footprint" "KiCad-Lib:Header_1x06_P2.00mm_Vertical"
 			(at 326.39 132.08 0)
 			(effects
 				(font
@@ -25689,7 +25689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:Header_1x06_P2.00mm_Vertical"
+		(property "Footprint" "KiCad-Lib:Header_1x06_P2.00mm_Vertical"
 			(at 358.14 130.81 0)
 			(effects
 				(font
