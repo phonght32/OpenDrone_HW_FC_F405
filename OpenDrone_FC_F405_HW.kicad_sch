@@ -16606,7 +16606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprint:LGA-8_2x2.5mm_P0.65mm"
+		(property "Footprint" "KiCad-Lib:LGA-8_2x2.5mm_P0.65mm"
 			(at 367.03 80.01 0)
 			(effects
 				(font
@@ -18924,7 +18924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprint:LGA-14_3x2.5mm_P0.5mm"
+		(property "Footprint" "KiCad-Lib:LGA-14_3x2.5mm_P0.5mm"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -19162,7 +19162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprint:QFN-16_3x3mm_P0.5mm"
+		(property "Footprint" "KiCad-Lib:QFN-16_3x3mm_P0.5mm"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -22709,7 +22709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:Connector_XH_1x08_P1.25mm_Horizontal"
+		(property "Footprint" "KiCad-Lib:Connector_XH_1x08_P1.25mm_Horizontal"
 			(at 304.8 105.41 0)
 			(effects
 				(font
