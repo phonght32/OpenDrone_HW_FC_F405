@@ -1,0 +1,3 @@
+[submodule "Kicad-Lib"]
+	path = Kicad-Lib
+	url = git@github.com:phonght32/Kicad-Lib.git
