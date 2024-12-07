@@ -9307,7 +9307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 27.94 57.15 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 137.16 24.13 0)
 			(effects
 				(font
@@ -9970,7 +9970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 186.69 173.99 0)
 			(effects
 				(font
@@ -10278,7 +10278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 161.29 125.73 0)
 			(effects
 				(font
@@ -10453,7 +10453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 354.33 64.77 0)
 			(effects
 				(font
@@ -10698,7 +10698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 220.98 165.1 0)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 64.77 24.13 0)
 			(effects
 				(font
@@ -11494,7 +11494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 213.36 24.13 0)
 			(effects
 				(font
@@ -11737,7 +11737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 152.4 115.57 0)
 			(effects
 				(font
@@ -11981,7 +11981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 161.29 173.99 0)
 			(effects
 				(font
@@ -12224,7 +12224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 152.4 24.13 0)
 			(effects
 				(font
@@ -12401,7 +12401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 69.85 172.72 0)
 			(effects
 				(font
@@ -12578,7 +12578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 251.46 49.53 0)
 			(effects
 				(font
@@ -12821,7 +12821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "KiCad-Lib:C_1210_3225Metric"
 			(at 35.56 166.37 0)
 			(effects
 				(font
@@ -12998,7 +12998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "KiCad-Lib:C_1210_3225Metric"
 			(at 129.54 165.1 0)
 			(effects
 				(font
@@ -13358,7 +13358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 44.45 172.72 0)
 			(effects
 				(font
@@ -13665,7 +13665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 217.17 168.91 0)
 			(effects
 				(font
@@ -13842,7 +13842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:LED_0402_1005Metric"
 			(at 257.81 129.54 90)
 			(effects
 				(font
@@ -14017,7 +14017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "KiCad-Lib:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
 			(at 57.15 165.1 0)
 			(effects
 				(font
@@ -14107,7 +14107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "KiCad-Lib:C_1210_3225Metric"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -14284,7 +14284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 73.66 24.13 0)
 			(effects
 				(font
@@ -14461,7 +14461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "KiCad-Lib:D_SMA"
 			(at 205.74 166.37 0)
 			(effects
 				(font
@@ -14636,7 +14636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -14880,7 +14880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 46.99 24.13 0)
 			(effects
 				(font
@@ -15254,7 +15254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 204.47 116.84 0)
 			(effects
 				(font
@@ -15512,7 +15512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 152.4 125.73 0)
 			(effects
 				(font
@@ -15755,7 +15755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "KiCad-Lib:C_1210_3225Metric"
 			(at 234.95 165.1 0)
 			(effects
 				(font
@@ -16119,7 +16119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 251.46 59.69 0)
 			(effects
 				(font
@@ -16296,7 +16296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 346.71 34.29 0)
 			(effects
 				(font
@@ -16606,7 +16606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering"
+		(property "Footprint" "KiCad-Lib:LGA-8_2x2.5mm_P0.65mm"
 			(at 367.03 80.01 0)
 			(effects
 				(font
@@ -16693,7 +16693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 82.55 24.13 0)
 			(effects
 				(font
@@ -16871,7 +16871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 231.14 24.13 0)
 			(effects
 				(font
@@ -17049,7 +17049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 96.52 171.45 0)
 			(effects
 				(font
@@ -17292,7 +17292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "KiCad-Lib:C_1210_3225Metric"
 			(at 121.92 165.1 0)
 			(effects
 				(font
@@ -17470,7 +17470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 213.36 172.72 0)
 			(effects
 				(font
@@ -17647,7 +17647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 110.49 106.68 0)
 			(effects
 				(font
@@ -17824,7 +17824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 198.12 173.99 0)
 			(effects
 				(font
@@ -18238,7 +18238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 74.93 170.18 0)
 			(effects
 				(font
@@ -18482,7 +18482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 213.36 127 0)
 			(effects
 				(font
@@ -19430,7 +19430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "KiCad-Lib:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 38.1 59.69 0)
 			(effects
 				(font
@@ -19638,7 +19638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 144.78 24.13 0)
 			(effects
 				(font
@@ -19815,7 +19815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:LED_0402_1005Metric"
 			(at 257.81 100.33 90)
 			(effects
 				(font
@@ -19992,7 +19992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 191.77 171.45 0)
 			(effects
 				(font
@@ -20169,7 +20169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 106.68 30.48 0)
 			(effects
 				(font
@@ -20347,7 +20347,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 106.68 163.83 0)
 			(effects
 				(font
@@ -20591,7 +20591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 189.23 163.83 0)
 			(effects
 				(font
@@ -20768,7 +20768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 38.1 24.13 0)
 			(effects
 				(font
@@ -20945,7 +20945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 20.32 24.13 0)
 			(effects
 				(font
@@ -21185,7 +21185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "KiCad-Lib:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
 			(at 173.99 166.37 0)
 			(effects
 				(font
@@ -21275,7 +21275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 252.73 100.33 0)
 			(effects
 				(font
@@ -21452,7 +21452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "KiCad-Lib:C_1210_3225Metric"
 			(at 27.94 166.37 0)
 			(effects
 				(font
@@ -21629,7 +21629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 337.82 34.29 0)
 			(effects
 				(font
@@ -21871,7 +21871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -22048,7 +22048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 252.73 129.54 0)
 			(effects
 				(font
@@ -22225,7 +22225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 106.68 38.1 0)
 			(effects
 				(font
@@ -22532,7 +22532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 27.94 62.23 0)
 			(effects
 				(font
@@ -22971,7 +22971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 29.21 24.13 0)
 			(effects
 				(font
@@ -23280,7 +23280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 204.47 127 0)
 			(effects
 				(font
@@ -23657,7 +23657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 26.67 121.92 0)
 			(effects
 				(font
@@ -23834,7 +23834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "KiCad-Lib:D_SMA"
 			(at 88.9 165.1 0)
 			(effects
 				(font
@@ -24012,7 +24012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 38.1 121.92 0)
 			(effects
 				(font
@@ -24702,7 +24702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 222.25 24.13 0)
 			(effects
 				(font
@@ -24946,7 +24946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 55.88 24.13 0)
 			(effects
 				(font
@@ -25269,7 +25269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:R_0402_1005Metric"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -25446,7 +25446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 81.28 172.72 0)
 			(effects
 				(font
@@ -25770,7 +25770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "KiCad-Lib:C_0402_1005Metric"
 			(at 72.39 162.56 0)
 			(effects
 				(font
